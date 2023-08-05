@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>introdduccion js</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+	</head>
+	<body>
+		<div class="flex">
+			<div class="card">
+				<img
+					src="./assets/img/cat-page-brand-compare-xps-13-9320-sl-front-800x550.avif"
+					alt=""
+				/>
+				<h3>Lenovo Y720</h3>
+
+				<!-- Campo de entrada para el número o cantidad del producto -->
+				<div class="input-container">
+					<label for="cantidad">Cantidad:</label>
+					<input
+						type="text"
+						id="cantidad"
+						placeholder="Ingrese la cantidad"
+					/>
+				</div>
+
+				<!-- Campo de entrada para el color del producto -->
+				<div class="input-container">
+					<label for="color">Color:</label>
+					<input
+						type="text"
+						id="colorInput"
+						placeholder="Ingrese el color"
+					/>
+				</div>
+
+				<h3 id="price">Precio: 600.000$</h3>
+				<!-- Botón de envío para enviar la información del producto -->
+				<button id="btn" class="btn">Agregar al carrito</button>
+			</div>
+			<div class="carro">
+				<div>
+					<h3>total: <span id="total"></span></h3>
+
+					<div class="c1">
+						<h3>color:</h3>
+						<div id="colorDiv" class="color-container"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
