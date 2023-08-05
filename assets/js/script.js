@@ -5,6 +5,13 @@ function cambiarColor() {
 
 	colorDiv.style.backgroundColor = colorInput;
 }
+// funcion para mostrar la cantidad de veces del producto
+function cuantosProd() {
+	const prodVeces = document.querySelector("#cantidad").value;
+	const vecesSpan = document.querySelector("#veces");
+
+	vecesSpan.innerHTML = prodVeces;
+}
 // Función para calcular y mostrar el total
 function calcularTotal() {
 	const cantidadInput = document.getElementById("cantidad");
@@ -24,4 +31,5 @@ function calcularTotal() {
 document.getElementById("btn").addEventListener("click", function () {
 	cambiarColor();
 	calcularTotal();
+	cuantosProd();
 });

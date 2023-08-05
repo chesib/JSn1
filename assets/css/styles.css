@@ -66,7 +66,24 @@
 .btn {
 	margin-top: 20px;
 	background-color: burlywood;
-	padding: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: beige;
+	transform: scale(1.1);
+}
+.bt-comprar {
+	margin: 10px;
+	background-color: burlywood;
+	padding: 10px;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 0.2s;
+}
+.bt-comprar:hover {
+	background-color: beige;
+	transform: scale(1.1);
 }
